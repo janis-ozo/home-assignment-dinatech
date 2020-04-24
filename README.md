@@ -28,7 +28,7 @@ echo (new SummationService(array $Yourarray))->sum($a,$b);
 
 function longestSubstr(string $text): string
 
-accepts string and returns return its longest substring that does not include any
+accepts string and returns its longest substring that does not include any
 two-character sequence more than once.  In case there are several such substrings
 with the same number of characters in them, function will return the
 leftmost one.
